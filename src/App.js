@@ -23,8 +23,8 @@ const App = () => (
             <Route exact path="/cryptocurrencies">
               <Cryptocurrencies />
             </Route>
-            <Route exact path="/crypto/:uuid">
-              <CryptoDetails />
+            <Route exact path="/crypto/:coinId" component={CryptoDetails}>
+              
             </Route>
             <Route exact path="/news">
               <News />

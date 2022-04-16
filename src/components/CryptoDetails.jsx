@@ -11,12 +11,12 @@ const { Title, Text } = Typography;
 const { Option } = Select
 
 const CryptoDetails = () => {
-  const { coinId } = useParams();
-  console.log({coinId})
+  const { uuid }  = useParams();
+  console.log({uuid})
 
   return (
     <div>
-      CryptoDetails { coinId }
+      CryptoDetails { uuid }
     </div>
   )
 }
